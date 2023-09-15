@@ -1,0 +1,31 @@
+body::before{
+   display:block;
+   content:'';
+}
+
+p{
+   margin-bottom:.3rem;
+}
+
+:root{
+   --yellow: #ebe075;
+   --gray: #e7e7e7;
+}
+
+.bg-yellow{
+   background-color: var(--yellow);
+}
+
+.bg-gray{
+   background-color: var(--gray);
+}
+
+.line{
+   transition: ease-in-out 5s;
+   border-bottom: solid 1px;
+   border-radius: 0px 0px 0px 13px;
+   background: linear-gradient( rgba(0,0,0,.0), rgba(0, 0, 0, 0));
+}
+.line:hover{
+   background: linear-gradient( rgba(0,0,0,.0), rgba(48, 48, 48, 0.1));
+}
